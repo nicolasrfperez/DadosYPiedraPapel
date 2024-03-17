@@ -1,13 +1,13 @@
 from borra import cleaning
 from decoracion import decorar, decorar1
 from errores import validarIngresoEntero
-from GpoBJuegoDeDados import juegosDados
-from GpoBPiedraPapelTijeras import JuegoPPYJ
+from JuegoDeDados import juegosDados
+from PiedraPapelTijeras import JuegoPPYJ
 from abm import leerArchivoDados,grabarArchivoDados,leerArchivoPPT,grabarArchivoPPT
 
 cleaning()
 print("#"*45)
-print("Mi Cajita de Juegos".center(45,"="))
+print(" Mi Cajita de Juegos ".center(45,"="))
 
 acuResul = [0,0,0]
 
